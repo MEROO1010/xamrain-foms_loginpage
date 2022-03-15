@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lgoin_page.MainPage"
+             BackgroundImageSource="green.png">
+    <StackLayout Padding="0,-60">
+        
+        
+        <Label Text="Login" FontSize="40" TextColor="#F5C040" FontAttributes="Bold" Padding="108,300"  FontFamily="sans-serif"/>
+        <Entry Placeholder="Username"   WidthRequest="220" HeightRequest="40"  HorizontalOptions="Center" VerticalOptions="Start" VerticalTextAlignment="Start" Margin="10,-260"/>
+        <Label Text="Password" FontSize="40" TextColor="#F5C040" FontAttributes="Bold" Padding="108,290"  FontFamily="sans-serif"/>
+        <Entry Placeholder="password"  IsPassword="true" WidthRequest="220" HeightRequest="40"  HorizontalOptions="Center" VerticalOptions="Start" VerticalTextAlignment="Start" Margin="10,-260"/>
+
+        <Grid Margin="0,300">
+            <Button Text="Login" FontAttributes="Bold" TextColor="Black" BackgroundColor="#F5C040" HorizontalOptions="Center" WidthRequest="220" HeightRequest="40"  />
+        </Grid>
+    </StackLayout>
+    
+    
+            
+
+
+
+
+
+
+
+
+</ContentPage>
